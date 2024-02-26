@@ -1,6 +1,10 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
+const generateReadMe = ({}) => {
+    return ``;
+}
+
 
 inquirer.prompt([
     {

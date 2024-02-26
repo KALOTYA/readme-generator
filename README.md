@@ -17,19 +17,70 @@ The README Generator project is a powerful tool designed to simplify the process
 
 ## Features
 
-- Command-line Interface: 
+- **Command-line Interface**: 
     - Provides a user-friendly command-line interface for easy interaction.
-- Dynamic Input: 
+- **Dynamic Input**: 
     - Prompts users to input project details such as title, description, installation instructions, usage guidelines, etc
-- Templates: 
+- **Templates**: 
     - Offers predefined templates to suit their project's needs.
-- Markdown Support: 
+- **Markdown Support**: 
     - Supports Markdown formatting for enhanced readability and presentation of project information.
-- File Generation: 
+- **File Generation**: 
     - Automatically generates a README file based on the provided input and chosen template.
-- Error Handling: 
+- **Error Handling**: 
     - Implements robust error handling to gracefully manage unexpected inputs or errors during the generation process.
-- Dependency Management: 
+- **Dependency Management**: 
     - Utilizes Node.js package management for easy installation and maintenance of project dependencies.
-- Extensibility:
+- **Extensibility**:
     - Designed with a modular architecture to facilitate future enhancements and additions of new features.
+
+## Installation
+
+To use the README Generator, follow these steps:
+
+1. **Clone the Repository**: Clone the README Generator repository to your local machine using Git.
+   ```bash
+   git clone https://github.com/yourusername/readme-generator.git
+   ```
+2. **Navigate to the Project Directory**: Change your current directory to the README Generator project directory.
+    ```bash
+    cd readme-generator
+    ```
+3. **Verify npm Installation**: If Node.js is installed, this command will display its version number. If not, you need to install Node.js from the official website.
+    ```bash
+    node --version
+    ```
+4. **Install Dependencies**: Install the required dependencies using npm (Node Package Manager).
+    ```bash
+    npm install
+    ```
+5. **Verify**: To verify that you have installed the correct node package (Inquirer) Please use this command.
+    ```bash
+    npm ls inquirer
+    ```
+Once you've completed these steps, you're all set up to use the README Generator for your projects!
+
+## Usage
+
+1. **Navigate to the Project Directory**: Change your current directory to the README Generator project directory.
+    ```bash
+    cd readme-generator
+    ```
+2. **Run the Application**: Execute the application by running the following command and follow the prompts to provide project information.
+    ```bash
+    node index.js
+    ```
+3. **Generated README**: Once you have completed the input process, the application will generate a README file in the project directory based on the provided information.
+4. **Verify**: Verify the README.md file for your project was created. Navigate to the directory and look for the README.md file. 
+
+Now you're all set up to start using the README Generator for all your projects!
+
+## Contributing
+
+Thank you for your interest in contributing to the README Generator project. At this time, we are not accepting contributions.
+
+We appreciate your understanding and support!
+
+## License
+
+This project is proprietary and all rights are reserved. Unauthorized copying, distribution, or use of this software is strictly prohibited.

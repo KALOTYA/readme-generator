@@ -10,6 +10,8 @@ Look no further! With README Magic, you can streamline the process of creating a
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 
@@ -84,3 +86,18 @@ We appreciate your understanding and support!
 ## License
 
 This project is proprietary and all rights are reserved. Unauthorized copying, distribution, or use of this software is strictly prohibited.
+
+## Tests
+
+No Tests are available at this time.
+
+## Questions
+
+If you have any questions or need assistance with the README Generator, feel free to reach out:
+
+- **GitHub Profile**: [Your GitHub Profile](https://github.com/yourusername)
+  Please visit my GitHub profile for additional information and projects.
+
+- **Email**: your.email@example.com
+  You can also contact me via email if you have any inquiries or feedback.
+

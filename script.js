@@ -1,8 +1,61 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
+const { title } = require("process");
 
-const generateReadMe = ({}) => {
-    return ``;
+const generateReadMe = ({ title, intro, descript, install, usageOne, usageTwo, contrib, license, testOne, testTwo, username, email }) => {
+    return `# ${title} 
+
+    ${intro}
+    
+    ## Table of Contents
+    
+    - [Description](#description)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contributing](#contributing)
+    - [License](#license)
+    - [Tests](#tests)
+    - [Questions](#questions)
+    
+    ## Description
+    
+    ${descript}
+    
+    
+    ## Installation
+    
+    To use the README Generator, follow these steps:
+    ${install}
+    
+    ## Usage
+    
+    ${usageOne}
+    
+    ![Alt Text](${usageTwo})
+    
+    ## Contributing
+    
+    ${contrib}
+    
+    ## License
+    
+    ${license}
+    
+    ## Tests
+    
+    ${testOne}
+
+    ${testTwo}
+    
+    ## Questions
+    
+    If you have any questions or need assistance with the ${title}, feel free to reach out:
+    
+    - **GitHub Profile**: [${username}](https://github.com/${username})
+      Please visit my GitHub profile for additional information and projects.
+    
+    - **Email**: ${email}
+      You can also contact me via email if you have any inquiries or feedback.`;
 };
 
 inquirer.prompt([
@@ -66,11 +119,6 @@ inquirer.prompt([
         type: 'input',
         name: 'email',
         message: 'What is your email?'
-    },
-    {
-        type: 'input',
-        name: 'reach',
-        message: 'What are some instructions on how they can reach you?'
     },
 ]).then((responses) => {
     console.log(responses);

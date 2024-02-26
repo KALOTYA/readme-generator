@@ -56,7 +56,7 @@ To use the README Generator, follow these steps:
     ```bash
     npm install
     ```
-5. **Verify**: To verify that you have installed the correct node package (Inquirer) Please use this command.
+5. **Verify**: To verify that you have installed the correct node package (Inquirer 8.2.4) Please use this command.
     ```bash
     npm ls inquirer
     ```
@@ -100,4 +100,3 @@ If you have any questions or need assistance with the README Generator, feel fre
 
 - **Email**: your.email@example.com
   You can also contact me via email if you have any inquiries or feedback.
-

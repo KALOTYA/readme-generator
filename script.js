@@ -4,49 +4,49 @@ const inquirer = require("inquirer");
 const generateReadMe = ({ title, intro, descript, install, usageOne, usageTwo, contrib, license, testOne, testTwo, username, email }) => {
     return `# ${title} 
 
-    ${intro}
+${intro}
     
-    ## Table of Contents
+## Table of Contents
     
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [License](#license)
-    - [Tests](#tests)
-    - [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
     
-    ## Description
+## Description
     
-    ${descript}
+${descript}
     
     
-    ## Installation
+## Installation
     
-    To use the ${title}, follow these steps:
-    ${install}
+To use the ${title}, follow these steps:
+${install}
     
-    ## Usage
+## Usage
     
-    ${usageOne}
+${usageOne}
     
-    ![Alt Text](${usageTwo})
+![Alt Text](${usageTwo})
     
-    ## Contributing
+## Contributing
     
-    ${contrib}
+${contrib}
     
-    ## License
+## License
     
-    ${license}
+${license}
     
-    ## Tests
+## Tests
     
-    ${testOne}
+${testOne}
 
-    ${testTwo}
+${testTwo}
     
-    ## Questions
+## Questions
     
     If you have any questions or need assistance with the ${title}, feel free to reach out:
     
